@@ -29,13 +29,13 @@ class Main {
 		return pi;
 	}
 	public static void main(String[]args) {
-		Main obj=new Main(9);
+		Main obj=new Main(15);
 			obj.areaofcircle();
-			obj.setradius(3);
+			obj.setradius(5);
 			obj.circumferenceoofcircle();
-			obj.setradius(3);
+			obj.setradius(2);
 			obj.surfaceofsphere();
-			obj.setradius(1);
+			obj.setradius(3);
 			obj.volumeofsphere();
 	}
 	}
